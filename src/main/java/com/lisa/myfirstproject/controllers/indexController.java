@@ -14,4 +14,9 @@ public class indexController {
     public String form() {
         return "form.html";
     }
+
+    @RequestMapping("/formComplete")
+    public String formComplete() {
+        return "formComplete.html";
+    }
 }

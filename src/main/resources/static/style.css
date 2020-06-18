@@ -5,6 +5,15 @@ html {
 
 a {
   color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button a {
+  color: black;
 }
 
 img {
