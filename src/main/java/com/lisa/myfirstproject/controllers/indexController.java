@@ -9,4 +9,9 @@ public class indexController {
     public String index() {
         return "index.html";
     }
+
+    @RequestMapping("/form")
+    public String form() {
+        return "form.html";
+    }
 }
