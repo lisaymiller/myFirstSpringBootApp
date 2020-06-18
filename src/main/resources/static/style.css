@@ -6,3 +6,8 @@ html {
 a {
   color: red;
 }
+
+img {
+  height: 30px;
+  width: 30px;
+}
